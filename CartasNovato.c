@@ -1,7 +1,8 @@
 #include <stdio.h>
  
 int main() {
-    printf("Desafio Super Trunfo-Novato")
+    printf("Desafio Super Trunfo-Novato \n")
+    printf("Novo commit")
 
     // ===== CARTA 1 =====
     int populacao1; 
