@@ -1,7 +1,7 @@
 #include <stdio.h>
  
 int main() {
-    printf("Desafio Super Trunfo-Novato \n");
+    printf("Desafio Super Trunfo-Aventureiro \n");
     printf("Novo commit");
 
     // ===== CARTA 1 =====
@@ -59,6 +59,7 @@ int main() {
     densidade1 = populacao1 / area1;
     pibPercapital1 = (pib1 * 1000000000) / populacao1;
 
+    
     // --------- ENTRADA DE DADOS DA CARTA 2 ---------
     printf("Cadastro da Carta 2\n");
 
@@ -88,6 +89,7 @@ int main() {
     densidade2 = populacao2 / area2;
     pibPercapital2 = (pib2 * 1000000000) / populacao2;
 
+
     // --------- SAÍDA DE DADOS ---------
     printf("\n===== CARTA 1 =====\n");
     printf("Estado: %c\n", estado1);
@@ -111,6 +113,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", turisticos2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %.2f reais\n", pibPercapital2);
+
 
     return 0;
 }
